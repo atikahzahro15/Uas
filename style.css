@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.top-bar {
+    background-color: #0c642e;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    position: sticky;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: fixed;
+    z-index: 1000;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .logo img {
+    width: 80px;
+    height: auto;
+  }
+  
+  .nama {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+  .sidebar {
+    position: fixed;
+    left: 0; 
+    top: 70px; 
+    width: 200px;
+    height: 100vh;
+    background-color: #333333;
+    padding: 20px;
+    color: #fff;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #acacac;
+    text-decoration: underline;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav li {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 65px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.status {
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ce8d00;
+    margin-top: -5px;
+    font-weight: bold;
+}
+
+.comment {
+    background-color: #81818131;
+    padding: 5px;
+    padding-left: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    color: #b1b1b1;
+}
+
+.main-content {
+    flex: 1;
+    margin-top: 70px;
+    margin-left: 285px;
+    padding: 20px;
+}
+
+.main-content h1 {
+    margin-left: 10px;
+}
+
+.main-content p {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.role {
+    display: inline-block; 
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+
+.card {
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+.blue {
+    background-color: #4285F4;
+    color: white;
+}
+
+.vektor {
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 30px;
+    vertical-align: middle;
+    float: right;
+    opacity: 0.2;
+  }
+
+.orange {
+    background-color: #e2ad00;
+    color: white;
+}
+
+.red {
+    background-color: #EA4335;
+    color: white;
+}
